@@ -1,0 +1,91 @@
+*{
+    font-family: "Nunito", sans-serif;
+}
+
+.title-text{
+    font-family: "Caveat", cursive;
+}
+
+.navbar{
+    background-color: black;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #ffff;
+    color: black;
+}
+
+.navbar-toggler-icon{
+    background-color: #fff;
+}
+
+.navbar .navbar-brand,
+#cabecalho .nav .nav-link{
+    color: #ffff;
+}
+
+.carousel-item img{
+    height: 760px;
+    width: 100%;
+}
+
+#catalago button.active{
+    background-color: #000;
+    color: #ffff;
+}
+
+#catalago button{
+    color: black;
+}
+
+.carousel button span{
+    color: black;
+}
+
+.tab-content img{
+    width: 175px;
+    height: 140px;
+}
+
+.alinhamento{
+    text-align: justify;
+}
+
+.tab-content p {
+    font-size: small;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button{
+    background-color: black;
+    color: #fff;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+.icon-insta{
+    color: #a55eea;
+}
+
+.icon-whats{
+    color: #26de81;
+}
+
+@media (max-width:767px){
+    .carousel-item img{
+        height: 280px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px){
+    .carousel-item img{
+        height: 500px;
+    }
+}
